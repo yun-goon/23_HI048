@@ -1,0 +1,36 @@
+  *-display
+       description: VGA compatible controller
+       product: ASPEED Graphics Family [1A03:2000]
+       vendor: ASPEED Technology, Inc. [1A03]
+       physical id: 0
+       bus info: pci@0000:04:00.0
+       version: 41
+       width: 32 bits
+       clock: 33MHz
+       capabilities: pm msi vga_controller cap_list rom
+       configuration: driver=ast latency=0
+       resources: irq:17 memory:9c000000-9cffffff memory:9d000000-9d01ffff ioport:2000(size=128) memory:c0000-dffff
+  *-display
+       description: VGA compatible controller
+       product: GA102 [GeForce RTX 3090] [10DE:2204]
+       vendor: NVIDIA Corporation [10DE]
+       physical id: 0
+       bus info: pci@0000:3b:00.0
+       version: a1
+       width: 64 bits
+       clock: 33MHz
+       capabilities: pm msi pciexpress vga_controller bus_master cap_list rom
+       configuration: driver=nvidia latency=0
+       resources: iomemory:38bf0-38bef iomemory:38bf0-38bef irq:353 memory:b7000000-b7ffffff memory:38bfe0000000-38bfefffffff memory:38bff0000000-38bff1ffffff ioport:7000(size=128) memory:b8000000-b807ffff
+  *-display
+       description: VGA compatible controller
+       product: GA102 [GeForce RTX 3090] [10DE:2204]
+       vendor: NVIDIA Corporation [10DE]
+       physical id: 0
+       bus info: pci@0000:af:00.0
+       version: a1
+       width: 64 bits
+       clock: 33MHz
+       capabilities: pm msi pciexpress vga_controller bus_master cap_list rom
+       configuration: driver=nvidia latency=0
+       resources: iomemory:39bf0-39bef iomemory:39bf0-39bef irq:354 memory:ed000000-edffffff memory:39bfe0000000-39bfefffffff memory:39bff0000000-39bff1ffffff ioport:e000(size=128) memory:ee000000-ee07ffff

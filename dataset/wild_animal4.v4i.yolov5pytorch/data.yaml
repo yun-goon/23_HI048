@@ -1,0 +1,7 @@
+names:
+- dog
+- person
+- wildboar
+nc: 3
+train: /content/drive/MyDrive/dataset/wild_animal4.v4i.yolov5pytorch/train/images
+val: /content/drive/MyDrive/dataset/wild_animal4.v4i.yolov5pytorch/test/images
