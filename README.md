@@ -10,3 +10,7 @@
 [이장희](https://github.com/liljanghee)
 [윤원호](https://github.com/yun-goon)
 
+
+[<img src="https://i.ytimg.com/vi/lqEiWCCVZq4.jpg" width="50%">](https://www.youtube.com/watch?v=lqEiWCCVZq4)
+
+https://www.youtube.com/watch?v=lqEiWCCVZq4
